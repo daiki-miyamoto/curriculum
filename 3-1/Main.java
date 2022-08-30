@@ -5,13 +5,12 @@
  */
 public class Main{
     public static void main(String[] args){
-        int data= {3, 1, 2, 7, 5};
-        int data=31275;
-        System.out.println(int data=31275)
         /*
         * 問1
         * int型の配列dataを作成し、値を3,1,2,7,5で初期化しなさい
         */
+        int data=31275;
+        System.out.println(data);
 
         /*
         * 問2
@@ -34,7 +33,7 @@ public class Main{
                 }
             }
         }
-        for(int i = 0; i < data.length; i++){0
+        for(int i = 0; i < data.length; i++){
             System.out.print(data[i] + " ");
         }
     }
