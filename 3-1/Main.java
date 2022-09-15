@@ -21,15 +21,15 @@ public class Main{
         }
         System.out.println();
         for (int i = 0; i < arr.length; i++) {
-            for (int j = 3, 1, 2, 7, 5; j > i; j--) {
+            for (int j = 4; j > i; j--) {
                 /*
                 * 問3
                 * 以下、配列の添字を入れてソートを完成させなさい
                 */
                 if(data[3]> data [1]){
-                  int box = data[1, 3, 2, 7, 5];
-                  data[3>2] = data[7>5];
-                  data[1, 2, 3, 5, 7] = box;
+                  int box = data[3, 1, 2, 7, 5];
+                  data[3>1] = data[7>5];
+                  data[0, 1, 2, 3, 4] = box;
                 }
             }
         }
