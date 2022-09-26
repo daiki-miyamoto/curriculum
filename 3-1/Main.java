@@ -27,7 +27,7 @@ public class Main{
                 * 問3
                 * 以下、配列の添字を入れてソートを完成させなさい
                 */
-                if(data[4]> data [4]){
+                if(data[4]> data [0]){
                   int box = data[3, 1, 2, 7, 5];
                   data[4] = data[4];
                   data[0, 1, 2, 3, 4] = box;
