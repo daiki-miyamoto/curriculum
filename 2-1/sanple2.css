@@ -1,0 +1,18 @@
+#wrapper { /* 共通の処理*/
+    width: 800px;
+}
+
+.header {
+    height: 200px;
+    background-color:yellow;
+}
+
+.main {
+    height: 500px;
+    background-color:blue;
+}
+
+.footer {
+    height: 100px;
+    background-color:red;
+}
