@@ -6,7 +6,44 @@
 
 }
 
-    @media screen and (max-width: 479px) {
+@media screen and (max-width: 767px) {
+}
+
+.header {
+    height: 300px;
+    background-color: yellow;
+}
+
+.main {
+    height: 500px;
+    background-color:blue;
+}
+
+.footer {
+    height: 200px;
+    background-color: pink;
+}
+@media screen and (min-width: 767px) {
+}
+
+.header {
+    height: 300px;
+    background-color: yellow;
+}
+
+.main {
+    height: 500px;
+    background-color:blue;
+}
+
+.footer {
+    height: 200px;
+    background-color: pink;
+}
+
+@media screen and (max-width: 479px) { 
+
+       
 
     .header {
         height: 300px;
