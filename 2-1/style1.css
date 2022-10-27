@@ -1,0 +1,77 @@
+.clearfix::after { 
+    content: '';
+    display: block; 
+    clear: both;
+}
+
+@media screen and (max-width: 767px) {
+
+    #wrapper {
+        width: 80%;
+    }
+
+}
+
+@media screen and (min-width: 767px) {
+}
+
+.header {
+    width: 250px;
+    height: 100px;
+    background-color: blue;
+}
+
+.main {
+    display: flex;
+}
+
+.left {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    float: left;
+}
+.right {
+    width: 150px;
+    height: 100px;
+    background-color: red;
+    float: left;
+}
+
+.footer {
+    width: 250px;
+    height: 100px;
+    background-color: yellow;
+}
+
+@media screen and (max-width: 479px) { 
+
+    .header {
+        width: 250px;
+        height: 100px;
+        background-color: blue;
+    }
+    
+    .main {
+        display: flex;
+    }
+    
+    .left {
+        width: 100px;
+        height: 100px;
+        background-color: green;
+        float: left;
+    }
+    .right {
+        width: 150px;
+        height: 100px;
+        background-color: red;
+        float: left;
+    }
+    
+    .footer {
+        width: 250px;
+        height: 100px;
+        background-color: yellow;
+    }
+}
