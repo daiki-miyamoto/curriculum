@@ -4,30 +4,17 @@ body {
     width: 479px;
     margin: 0 auto; /* 中央寄せ */
 }
-
 .clearfix::after { 
     content: '';
     display: block; 
     clear: both;
 }
 
+
 .contents {
-    float: right; /* 要素の浮動化の解除 */
+    float: none; /* 要素の浮動化の解除 */
     }
-
-    img {
-        max-width: 100%; /* 横幅の最大値を親要素の幅に合わせる */
-        height: auto; /* 縦幅を親要素の幅に合わせる */
-        }
-        /* コンテンツの横幅を調整 */
-        .contents {
-        max-width: 1000px; /* 要素がこれ以上は大きくならない幅の指定 */
-        width: 100%; /* 横幅を親要素の幅に合わせる */
-        margin-left: auto; /* ボックス外側の左の余白を親要素の幅に合わせる */
-        margin-right: auto; /* ボックス外側の右の余白を親要素の幅に合わせる */
-        }
-
-        
+       
 @media screen and (max-width: 767px) {
 
     #wrapper {
@@ -45,9 +32,7 @@ body {
     background-color: blue;
 }
 
-.main {
-    display: flex;
-}
+
 
 .left {
     width: 150px;
@@ -58,7 +43,7 @@ body {
 .right {
     width: 250px;
     height: 250px;
-    background-color: red;
+    background-color: red;    
     float: left;
 }
 
